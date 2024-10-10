@@ -1,0 +1,114 @@
+body {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850"><path fill="%23D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsla(225, 100%, 94%, 0.855);
+  font-family: Red Hat Display;
+  font-size: 100%;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 25px;
+}
+h2 {
+  font-size: 13px;
+  color: hsl(223, 47%, 23%);
+  margin-right: 30px;
+  margin-left: -10px;
+}
+p {
+  padding: 0% 15% 0% 15%;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+}
+button {
+  font-family: Red Hat Display;
+  font-size: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.compartment {
+  background-color: white;
+  width: 90%;
+  max-width: 25%;
+  border-radius: 30px;
+  text-align: center;
+}
+.main {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.order {
+  color: hsl(224, 23%, 55%);
+  background-color: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  padding: 8% 0% 10% 0%;
+  border-radius: 0%;
+  transition: color transform 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.order:hover {
+  color: hsl(223, 47%, 23%);
+  transform: scale(1.1);
+}
+.Change {
+  color: #1e1fcd;
+  background-color: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  border-radius: 0%;
+  border: none;
+  cursor: pointer;
+  transition: color text-decoration 0.5s ease;
+  text-decoration: underline;
+  font-size: 80%;
+  margin: 15px;
+}
+.Change:hover {
+  text-decoration: none;
+  color: #5858dfe4;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  margin: 3px;
+}
+
+.pay {
+  background-color: #1e1fcd;
+  color: white;
+  font-weight: 700;
+  padding: 3% 20% 3% 20%;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: -1px 8px 12px #5858df70;
+  transition: color 0.5s ease;
+  font-size: 90%;
+}
+.pay:hover {
+  background-color: #5858dfe4;
+}
+.plan-b {
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10%;
+  margin: 10%;
+  padding: 2%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  max-width: 100%;
+}
+.Plan {
+  font-weight: 900;
+}
